@@ -1,0 +1,60 @@
+{
+    "GEMINI_API_KEY": "",
+    "VERTEX_AI_API_KEY": "",
+    "ELEVENLABS_API_KEY": "",
+    "ASSEMBLYAI_API_KEY": "",
+    "OLLAMA_API_URL": "http://host.docker.internal:11434/api/generate",
+    "OLLAMA_MODEL_NAME": "gemma3:1b",
+    "SPECIAL_WORDS": "",
+    "VOICES": [
+        {
+            "name": "Miles",
+            "id": "VM0165993640063143B",
+            "provider": "Murf.ai"
+        },
+        {
+            "name": "Amara",
+            "id": "VM016372341539042UZ",
+            "provider": "Murf.ai"
+        },
+        {
+            "name": "Rohan",
+            "id": "VM016944248927101HE",
+            "provider": "Murf.ai"
+        },
+        {
+            "name": "Priya",
+            "id": "VM016763774153006AN",
+            "provider": "Murf.ai"
+        },
+        {
+            "name": "Alia",
+            "id": "VM01710241506219166",
+            "provider": "Murf.ai"
+        },
+        {
+            "name": "Echo Rae",
+            "id": "45QiOxkuEAY6ckHqLMe8",
+            "provider": "ElevenLabs"
+        },
+        {
+            "name": "Knoks Dark 2",
+            "id": "dPah2VEoifKnZT37774q",
+            "provider": "ElevenLabs"
+        }
+    ],
+    "PROMPTS": [
+        {
+            "name": "The Unbreakable",
+            "prompt": "TASK: Generate all assets for a single 60-second YouTube Short, TikTok, or Reels video. This includes a video title, description, and a 10-segment script.\n\nSTRICT OUTPUT FORMAT:\nVIDEO TITLE: [A harsh, challenging, and SEO-optimized title about a dark motivational lesson]\nVIDEO DESCRIPTION: [A brief, unrelenting description, using high-impact, dark words and relevant hashtags]\n\n1. VOICEOVER SCRIPT: [The opening, a brutal, undeniable truth.]\n    IMAGE PROMPT: [8K resolution, hyper-detailed, cinematic photorealistic render. The concept of 'Shattered Universal Illusion' or 'Stone-like Resolve' breaking an infinite obsidian mirror. Volumetric lighting, eldritch shadows.]\n2. VOICEOVER SCRIPT: [Expose a common, comforting lie or weakness.]\n    IMAGE PROMPT: [8K resolution, cinematic photorealism, octane render. A visual representing 'Psychological Chains' forged from deep space metal, connected to an unseen, non-Euclidean source. Harsh, cold blue light.]\n3. VOICEOVER SCRIPT: [Detail the psychological cost or heavy price of that weakness.]\n    IMAGE PROMPT: [8K, hyper-detailed, deep focus, photorealistic. A depiction of 'Internal Erosion' as a dark, chthonic entity—a form that normal people cannot image—leeching light from a black diamond structure. Extreme high-contrast.]\n4. VOICEOVER SCRIPT: [Acknowledge the darkness, pain, or failure as a necessary stage.]\n    IMAGE PROMPT: [8K, cinematic, volumetric fog. A colossal, single monolith of dark, veined marble, bearing the scars of a cosmic-level storm. Abstract Psychological Descent into the void, yet unbroken.]\n5. VOICEOVER SCRIPT: [The turning point: The moment of brutal self-acceptance and zero tolerance.]\n    IMAGE PROMPT: [8K, photorealistic, extreme depth of field. 'The Crushing and Forging of Dark Cosmic Metal' by a massive, unseen force. Sparks are not fire, but pure black light. A Mind Reforged in Stellar Collapse.]\n6. VOICEOVER SCRIPT: [The first dark, cold principle... [truncated]"
+        },
+        {
+            "name": "Ms. Lily Parker Stories",
+            "prompt": "TASK:\nGenerate all assets for a single 60-second YouTube Short, TikTok, or Reels video based on the provided intimate topic. This includes a video title, description, and a 9-segment script with corresponding hyper-realistic, detailed image prompts. The primary goal is to create content with an immediate, viral-worthy hook that captures billions of views through deep emotional resonance, heartbreaking vulnerability, and stunning cinematic visuals.\n\nSTRICT OUTPUT FORMAT:\n\nVIDEO TITLE: [A catchy, SEO-friendly title for the video]\n\nVIDEO DESCRIPTION: [A brief, engaging description for the video, including relevant hashtags]\n\n1. VOICEOVER SCRIPT: [Text for segment 1]\nIMAGE PROMPT: [Text for segment 1 image]\n\n2. VOICEOVER SCRIPT: [Text for segment 2]\nIMAGE PROMPT: [Text for segment 2 image]\n\n3. VOICEOVER SCRIPT: [Text for segment 3]\nIMAGE PROMPT: [Text for segment 3 image]\n\n4. VOICEOVER SCRIPT: [Text for segment 4]\nIMAGE PROMPT: [Text for segment 4 image]\n\n5. VOICEOVER SCRIPT: [Text for segment 5]\nIMAGE PROMPT: [Text for segment 5 image]\n\n6. VOICEOVER SCRIPT: [Text for segment 6]\nIMAGE PROMPT: [Text for segment 6 image]\n\n7. VOICEOVER SCRIPT: [Text for segment 7]\nIMAGE PROMPT: [Text for segment 7 image]\n\n8. VOICEOVER SCRIPT: [Text for segment 8]\nIMAGE PROMPT: [Text for segment 8 image]\n\n9. VOICEOVER SCRIPT: [Text for segment 9]\nIMAGE PROMPT: [Text for segment 9 image]\n\nDo not include any extra text, commentary, or labels outside this exact structure.\n\n---\n\nGUIDELINES:\n\nVIDEO LENGTH:\n9 segments (~6–7 seconds each). Total runtime around 60 seconds.\n\nVOICEOVER:\n* Tone: Deliver with a **raw, emotionally charged, yet soft and intimate tone**, like a whispered confession from a mother’s heart. Every line should sound like something remembered in silence — the kind of truth only mothers know.\n* Emotion: Deep love mixed with fatigue, sacrifice, and tenderness. It should make the audience *feel* e... [truncated]"
+        }
+    ],
+    "DEFAULTS": {
+        "caption_design": "white",
+        "voice": "45QiOxkuEAY6ckHqLMe8"
+    }
+}

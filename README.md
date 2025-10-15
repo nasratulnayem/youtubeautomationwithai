@@ -45,8 +45,8 @@ This project is a comprehensive, Flask-based web application designed to automat
 
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repository-url>
-    cd automate_music_mix
+    git clone https://github.com/nasratulnayem/automated-content-creator.git
+    cd automated-content-creator
     ```
 
 2.  **Create a Python Virtual Environment**
